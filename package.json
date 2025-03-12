@@ -1,0 +1,38 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "node authentication with jwt",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dmeikle/node-authentication.git"
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Dave Meikle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmeikle/node-authentication/issues"
+  },
+  "homepage": "https://github.com/dmeikle/node-authentication#readme",
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.1.2",
+    "jest": "^29.7.0",
+    "mocha": "^11.0.1",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

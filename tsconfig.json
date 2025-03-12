@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",       // Use ES modules
+    "target": "es6",          // Use ES6 for compatibility
+    "moduleResolution": "node",
+    "esModuleInterop": true,  // Allows default imports from CommonJS modules
+    "strict": true
+  },
+  "include": ["src", "tests"],
+  "exclude": ["node_modules","dist"]
+}
